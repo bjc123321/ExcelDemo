@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>585</width>
-    <height>435</height>
+    <width>803</width>
+    <height>657</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>130</y>
+      <x>50</x>
+      <y>60</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -30,8 +30,8 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>130</y>
+      <x>150</x>
+      <y>60</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -44,7 +44,7 @@
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>130</y>
+      <y>60</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -56,8 +56,8 @@
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>210</y>
+      <x>50</x>
+      <y>130</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -69,8 +69,8 @@
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>210</y>
+      <x>150</x>
+      <y>130</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -82,8 +82,8 @@
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>280</y>
+      <x>50</x>
+      <y>200</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -95,8 +95,8 @@
    <widget class="QPushButton" name="pushButton_7">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>280</y>
+      <x>150</x>
+      <y>200</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -105,13 +105,26 @@
      <string>填充稳态表</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>270</y>
+      <width>121</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>创建工频测试表</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>585</width>
+     <width>803</width>
      <height>23</height>
     </rect>
    </property>

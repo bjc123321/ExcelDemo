@@ -29,6 +29,8 @@ private slots:
     void createStaticTestExcel();  // 创建稳态测试Excel表格的槽函数
     void updateStaticTestExcel();  // 更新稳态测试Excel表格模拟数据的槽函数
 
+    void createWorkConditionExcel(); //创建工况试验报告
+
 private:
     Ui::MainWindow *ui;
 };
