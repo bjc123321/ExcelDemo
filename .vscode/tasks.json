@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "qmake",
+      "type": "shell",
+      "command": "qmake",
+      "args": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "make",
+      "type": "shell",
+      "command": "mingw32-make",  // 将 make 替换为 mingw32-make
+      "args": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "qmake"   // 让 "make" 任务依赖 "qmake" 任务
+    }
+  ]
+}

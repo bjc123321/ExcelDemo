@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Qt Project",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Qt/5.12.12/mingw73_64/include",  // 修改为你安装的Qt路径
+                "D:/Qt/5.12.12/mingw73_64/include/QtCore",
+                "D:/Qt/5.12.12/mingw73_64/include/QtGui"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "compilerPath": "D:/Qt/5.12.12/mingw73_64/bin/qmake",  // 根据你安装的Qt路径设置
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
